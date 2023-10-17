@@ -1,0 +1,55 @@
+
+:root{
+  --quickSand-font:'Quicksand', sans-serif;
+  --lato-font: 'Lato', sans-serif;;
+  --accent-color1:#DAD7CD;
+  --accent-color2:#588157;
+  --accent-color3:#344E41;
+  --sec-color:#A3B18A;
+  --primary-color:#3A5A40;
+}
+
+
+@media (max-width: 767px) {
+  .nav-bar {
+    /* display: none; */
+    position: absolute;
+    background-color: var(--accent-color3);
+    padding: 20px;
+    right: -120px;
+    top: 60px;
+    z-index: 10;
+  }
+  .menuClick{
+    right: 10px;
+    transition: 2s;
+
+  }
+  .nav-ul{
+    flex-direction: column;
+  }
+  #head-1 {
+    justify-content: space-between;
+  }
+  #hero-sec {
+    padding: 10px 0px;
+  }
+  .hero-text-content{
+    gap: 20px;
+  }
+  .hero-text-content h1{
+    font-size: 2rem;
+    
+  }
+  .menu-btn-place{
+display: inline-block;
+  }
+  .menuBtn{
+    width: 30px;
+    cursor: pointer;
+  }
+  #quote-sec{
+    padding: 30px;
+  }
+
+}
